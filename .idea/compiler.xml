@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-elasticsearch" />
+        <module name="spring-data-jap-postgresql" />
+        <module name="spring-boot-rabbitmq" />
+        <module name="customer-management-app" />
+        <module name="spring-mongo-rest-api" />
+        <module name="spring-datajpa-postgresql" />
+        <module name="spring-hello-world" />
+        <module name="spring-boot-api-doc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-datajpa-postgresql" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="customer-management-app" options="-parameters" />
+      <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-data-jap-postgresql" options="-parameters" />
+      <module name="spring-datajpa-postgresql" options="" />
+      <module name="spring-elasticsearch" options="-parameters" />
+      <module name="spring-mongo-rest-api" options="-parameters" />
+    </option>
+  </component>
+</project>
