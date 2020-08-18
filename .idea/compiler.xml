@@ -10,6 +10,7 @@
         <module name="spring-data-jap-postgresql" />
         <module name="spring-boot-rabbitmq" />
         <module name="customer-management-app" />
+        <module name="junit-demo" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-datajpa-postgresql" />
         <module name="spring-hello-world" />
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer-management-app" options="-parameters" />
+      <module name="junit-demo" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-data-jap-postgresql" options="-parameters" />
