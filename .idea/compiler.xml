@@ -8,25 +8,36 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
         <module name="spring-data-jap-postgresql" />
-        <module name="spring-boot-rabbitmq" />
+        <module name="nlp-example" />
         <module name="customer-management-app" />
+        <module name="spring-boot-webflux-mongodb" />
+        <module name="spring-datajpa-postgresql" />
+        <module name="jdbc-demo" />
+        <module name="spring-boot-rabbitmq" />
         <module name="junit-demo" />
         <module name="spring-mongo-rest-api" />
-        <module name="spring-datajpa-postgresql" />
+        <module name="mongo-demo" />
+        <module name="spring-boot-websocker" />
         <module name="spring-hello-world" />
         <module name="spring-boot-api-doc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mongo-demo" target="14" />
       <module name="spring-datajpa-postgresql" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer-management-app" options="-parameters" />
+      <module name="jdbc-demo" options="-parameters" />
       <module name="junit-demo" options="-parameters" />
+      <module name="mongo-demo" options="-parameters" />
+      <module name="nlp-example" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-webflux-mongodb" options="-parameters" />
+      <module name="spring-boot-websocker" options="-parameters" />
       <module name="spring-data-jap-postgresql" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="" />
       <module name="spring-elasticsearch" options="-parameters" />
